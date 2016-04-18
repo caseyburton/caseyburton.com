@@ -11,11 +11,16 @@
 ?>
 
 		</section>
-		<div id="footer-container">
+
+<div id="footer-container">
 			<footer id="footer">
-				<?php do_action( 'foundationpress_before_footer' ); ?>
+				<blockquote class="quote">
+					<p><strong>In the time of your life, live &mdash;</strong> so that in that wondrous time you shall not add to the misery <span class="amp">&amp;</span> sorrow of the world, but shall smile to the infinite delight and mystery of it.</p>
+					<cite> William Saroyan</cite>
+				</blockquote>
+				<!-- <?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-				<?php do_action( 'foundationpress_after_footer' ); ?>
+				<?php do_action( 'foundationpress_after_footer' ); ?> -->
 			</footer>
 		</div>
 
