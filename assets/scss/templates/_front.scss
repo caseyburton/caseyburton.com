@@ -75,6 +75,20 @@
 			li:last-child {
 				display: block;
 			}
+			.fa-plus {
+				color: darken($blue, 10%);
+				padding-right: 5px;
+			}
+			.sr-only {
+			    border: 0;
+			    clip: rect(0 0 0 0);
+			    height: 1px;
+			    margin: -1px;
+			    overflow: hidden;
+			    padding: 0;
+			    position: absolute;
+			    width: 1px;
+			}
 			  
 			 .amp {
 			 	font-weight: 100;
