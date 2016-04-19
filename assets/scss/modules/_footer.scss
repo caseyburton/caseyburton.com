@@ -2,12 +2,43 @@
 	max-width: 100%;
 	width: 100%;
 	margin: 0 auto;
-	border-top: 1px solid #ccc;
+	// border-top: 1px solid #ccc;
 	margin-top: rem-calc(60);
+	background: $red;
 
 	#footer {
 		@include grid-row();
 		padding: rem-calc(30) 0;
+
+		blockquote {
+			border: none;
+			text-align: center;
+			@include breakpoint(medium) {
+				padding: rem-calc(60) rem-calc(0);
+			}
+			  
+			p {
+				font-family: $sans-serif;
+				color: darken($red, 10%);
+				text-transform: uppercase;
+				// text-shadow: 1px 1px 0px $light-red;
+				@include breakpoint(medium) {
+					font-size: rem-calc(55);
+					color: darken($red, 3%);
+				}
+				strong {
+					// font-size: 150%;
+				}
+			}
+			cite {
+				color: $white;
+				font-size: rem-calc(20);
+				font-style: normal;
+				font-weight: 100;
+				letter-spacing: .08em;
+				text-transform: uppercase;
+			}
+		}
 
 		ul {
 			list-style-type: none;

@@ -1,0 +1,1007 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"disp",
+				"display	(_kitchen-sink.scss)"
+			],
+			[
+				"medium",
+				"medium"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"grid-",
+				"grid-column"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"title",
+				"title-bar"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"esc",
+				"esc_url	(header.php)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"grid",
+				"grid-row"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"gr",
+				"grid-row"
+			],
+			[
+				"que",
+				"query_posts	(archive-connections.php)"
+			],
+			[
+				"includ",
+				"include	@include"
+			],
+			[
+				"get_s",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			],
+			[
+				"next",
+				"next-posts"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"include",
+				"include	@include"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"hover",
+				"hoverDelay	(offCanvas.js)"
+			],
+			[
+				"40px",
+				"40px"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"mo",
+				"moz-border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"white",
+				"white-space"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "page-templates/front.php",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1177,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/custom-functions.php",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/global/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/templates/_front.scss",
+			"settings":
+			{
+				"buffer_size": 2211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#footer-container {\n	max-width: 100%;\n	width: 100%;\n	margin: 0 auto;\n	// border-top: 1px solid #ccc;\n	margin-top: rem-calc(60);\n	background: $red;\n\n	#footer {\n		@include grid-row();\n		padding: rem-calc(30) 0;\n\n		blockquote {\n			border: none;\n			text-align: center;\n			@include breakpoint(medium) {\n				padding: rem-calc(60) rem-calc(0);\n			}\n			  \n			p {\n				font-family: $sans-serif;\n				color: darken($red, 10%);\n				text-transform: uppercase;\n				// text-shadow: 1px 1px 0px $light-red;\n				@include breakpoint(medium) {\n					font-size: rem-calc(55);\n					color: darken($red, 3%);\n				}\n				strong {\n					// font-size: 150%;\n				}\n				.amp \n			}\n			cite {\n				color: $white;\n				font-size: rem-calc(20);\n				font-style: normal;\n				font-weight: 100;\n				letter-spacing: .08em;\n				text-transform: uppercase;\n			}\n		}\n\n		ul {\n			list-style-type: none;\n			margin: 0;\n			padding: 0;\n		}\n	}\n}\n",
+			"file": "assets/scss/modules/_footer.scss",
+			"file_size": 931,
+			"file_write_time": 131055107614638548,
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/global/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 14390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/templates/_page-default.scss",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Snippet: grid-r",
+		"selected_items":
+		[
+			[
+				"Snippet: grid-r",
+				"Snippet: grid-row"
+			],
+			[
+				"Snippet: grid",
+				"Snippet: grid-columns"
+			],
+			[
+				"Snippet: gr",
+				"Snippet: grid-columns"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 377.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/components",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/modules",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/templates",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/library",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/page-templates",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/template-parts"
+	],
+	"file_history":
+	[
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/library/custom-functions.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/foundation.scss",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global/_fonts.scss",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global/_settings.scss",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/header.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/gulpfile.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_featured-image.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_brokers.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_container.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_front.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/style.css",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_page-buy-sell.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/front.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/page-buying.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/featured-image-half.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/home.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/page-community.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/archive-brokers.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_buttons.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_colors.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_page-default.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_settings.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_topbar.scss",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/header.php",
+		"/C/Users/Casey/Downloads/TransactionDownLoad (2).csv",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/page-full-width.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/single-connections.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_connections.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_post-broker.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/header.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/buying.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_footer.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/selling.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/footer.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/broker-randomizer.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_dividers.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_nav.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/mobile-off-canvas.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/mobile-top-bar.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/navigation.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/gulpfile.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/about.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/content-broker.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/archive-connections.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/foundation.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/content-connection.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/page-selling.php",
+		"/D/Ampps/www/sterling/wp-content/mu-plugins/custom-post-type.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/sidebar.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/content-broker-list.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/contact.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_contact.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_sidebar.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/sidebar-contact.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/page-contact.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_wp-overrides.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/page.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/single.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/single-brokers.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/community-service.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_single-post.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/entry-meta.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/socials.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/news.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/custom.php",
+		"/D/Ampps/www/sterling/wp-content/mu-plugins/custom-post-type-connections.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/a_archive-connections.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/grid-row.sublime-snippet",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/grid-columns.sublime-snippet",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/breakpoint.sublime-snippet",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_mixins.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/javascript/custom/acf-map.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/custom-post-type-connections.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/functions.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/custom-post-type-community.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/areas-menu-horizontal.php",
+		"/D/Ampps/www/sterling/wp-content/plugins/social-media-aggregator/im-social-aggregator.php",
+		"/D/Ampps/www/workspace/wp-content/themes/workspace/library/foundation.php",
+		"/D/Ampps/www/workspace/wp-content/themes/workspace/library/theme-support.php",
+		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/community-socials.php",
+		"/D/Ampps/www/workspace/wp-content/themes/workspace/template-home.php",
+		"/D/Ampps/www/workspace/wp-content/themes/workspace/template-community.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/broker-contact-form.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/parts/broker-randomizer",
+		"/D/Ampps/www/blackbird/wp-content/themes/blackbird-longboards/header.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/theme-support.php",
+		"/D/Ampps/www/dan-hicks/wp-content/themes/dan-hicks/bower.json",
+		"/D/Ampps/www/dan-hicks/wp-content/themes/dan-hicks/Gruntfile.js",
+		"/D/Ampps/www/dh/wp-content/themes/dan-hicks/node_modules/node-sass/package.json",
+		"/D/CLIENTS/DH_Home_Inspections/_Archive/DH_Temp/dhhomeinspection.wordpress.2012-06-04.xml",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/custom",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_fonts.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_typography.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/javascript/custom/offCanvas.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/menu-walkers.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/.gitignore",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/scss/site/_structure.scss",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-home-local.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/page.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/footer.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-home.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/page.php.bak.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/js/custom.js",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/library/theme-support.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/pages/sales-specials",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-sales-specials.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/parts/shop-sales-specials.php",
+		"/C/Users/Casey/Desktop/wp-config.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/functions.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/parts/natural-enquirer.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-sales-specials-OLD.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-config.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/style.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/all.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/licensing.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/js/main.js",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/header.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/framework/headers/header-v4.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/home.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/media.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/footer.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/faq.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/contact.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/aviation.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/about-newest.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Ampps\\www\\sterling\\wp-content\\themes\\sterling\\assets\\scss",
+			"D:\\Ampps\\www\\skagitfoodcoop\\wp-content\\themes\\eat-beets",
+			"D:\\Ampps\\www\\licensing-pros\\wp-content\\themes\\licensing_pros"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10px",
+			"10",
+			"4px",
+			"1px",
+			"selection",
+			"list",
+			"h4",
+			"button",
+			"global-radius",
+			"<li>",
+			"Step",
+			"data-equalizer-watch=\"expect\"",
+			"Step",
+			"Step One:",
+			"data-equalizer-watch=\"expect\"",
+			"</p>",
+			"<p>",
+			"li",
+			"</p>",
+			"<p>",
+			"span",
+			"div",
+			"h1",
+			"push-medium-",
+			"submenu",
+			"medium-gray",
+			"submenu",
+			"size-full",
+			"float",
+			"\"\">",
+			"<li>",
+			"/img",
+			"img",
+			"wp-content",
+			"ol",
+			"4",
+			"h2",
+			"</h2>",
+			"<h2>",
+			"section",
+			"40",
+			"large-6 columns",
+			"h2",
+			"a",
+			"h3",
+			"span",
+			"div",
+			"strong",
+			"em",
+			"strong",
+			"20px",
+			"10px",
+			"portrait",
+			"active",
+			"website",
+			"Website",
+			"website",
+			"broker-card-call",
+			"leftbox",
+			"topbox",
+			"broker",
+			"Broker",
+			"broker",
+			"brokers",
+			"<br>",
+			"website",
+			"3",
+			"acf-map",
+			"location",
+			"phone",
+			"Phone",
+			"phone",
+			"broker",
+			"Broker",
+			"broker",
+			"project",
+			"change",
+			"switch",
+			"quick",
+			"package",
+			"ol",
+			"</small>",
+			"<small>",
+			"<br> ",
+			"<h3><small>Constant</small> <br> Communication</h3>\n      <p>Expect to get to know your broker; they will be communicating with you often until you have the keys to the home of your dreams.</p>",
+			"class=\"large-4 columns\"",
+			"2",
+			"300px",
+			"current-menu-item",
+			"current",
+			"cur",
+			"buy",
+			"menu",
+			"current-menu",
+			"opacity",
+			"inline",
+			"span",
+			"_served",
+			"h3",
+			"picture",
+			"sa_picture",
+			"ul",
+			"3",
+			"picture",
+			">",
+			"div",
+			"100%",
+			"footer",
+			"button",
+			"cta",
+			"email-cta",
+			"div",
+			"tel",
+			"10",
+			"page",
+			"designation",
+			"designations",
+			"\\",
+			"span",
+			"repeater_field_name",
+			"li",
+			"designations",
+			"li",
+			"h2",
+			"div",
+			"jb_update_postdata",
+			"foo",
+			"Slide"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rgba(151,176,76, 1)",
+			"rgba(151,176,76, 1);",
+			"97b04c"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page-templates/front.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								944,
+								944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "library/custom-functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/global/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1982,
+								1983
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "assets/scss/templates/_front.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1674,
+								1674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/scss/modules/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/scss/global/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6008,
+								6014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3417.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/scss/templates/_page-default.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.513639181649,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "caseyburton.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Ampps\\www\\sterling\\wp-content\\themes\\sterling\\sterling.sublime-project"
+			]
+		],
+		"width": 620.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

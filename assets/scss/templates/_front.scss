@@ -1,14 +1,11 @@
+// body {
+// 	border-bottom: solid 50px $red;
+// }
+
 // Page header
 #front-hero {
-	.marketing {
-		@include grid-row();
-		max-width: 55rem;
-	}
-
+	background: $primary-color;
 	@include breakpoint(small) {
-		background: url('../images/demo/hero-bg-foundation-6-small.svg') bottom center;
-		background-size: cover;
-		background-position: bottom;
 		padding: rem-calc(65%) 0;
 		margin: 0 0 rem-calc(32);
 		height: auto;
@@ -17,64 +14,13 @@
 	}
 
 	@include breakpoint(medium) {
-		background: url('../images/demo/hero-bg-foundation-6-large.svg') bottom center;
-		background-size: cover;
-		background-position: center;
-		height: rem-calc(685);
+		// height: rem-calc(685);
 		margin: 0 0 rem-calc(72);
 	}
 
-	#watch {
-
-		@include breakpoint(small) {
-			@include grid-column(7);
-			@include grid-column-position(-5);
-		}
-
-		@include breakpoint(medium) {
-			@include grid-column(12);
-			@include grid-column-position(0);
-		}
-
-		section {
-			display: inline;
-		}
-
-		a {
-			color: #B4C9D1;
-			cursor: pointer;
-			font-weight: 400;
-			margin-right: rem-calc(20);
-		}
-
-		a:hover {
-			color: #fff;
-		}
-
-		#stargazers {
-			:before {
-				content: "\f09b";
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-decoration: inherit;
-				color: #B4C9D1;
-				margin-right: rem-calc(8);
-			}
-		}
-
-		#twitter {
-			:before {
-				content: "\f099";
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-decoration: inherit;
-				color: #B4C9D1;
-				margin-right: rem-calc(8);
-			}
-		}
-
+	.marketing {
+		@include grid-row();
+		max-width: 55rem;
 	}
 
 	.tagline {
@@ -84,8 +30,91 @@
 		}
 
 		@include breakpoint(medium) {
-			@include grid-column(5);
+			@include grid-column(12);
 			padding-top: 6rem;
+		}
+
+		h1.name {
+			font-size: 	rem-calc(75);	
+		    line-height: 1em;
+			font-weight: 900;
+			@include breakpoint(medium) {
+			    font-size: rem-calc(220);
+			}
+			::selection {
+				text-shadow: 10px 10px 0px $light-red;
+			}
+			.givenname {
+				color: darken($light-yellow, 10%);
+				font-size: 120%;
+			}
+			.familyname {
+				color: $dark-blue;
+				font-family: $serif;
+				text-transform: uppercase;
+			}
+		}
+		ul.subheader {
+			color: $light-gray;
+			@include breakpoint(medium) {
+				font-size: rem-calc(43);
+				line-height: 1.75em;
+			}
+			list-style: none;
+			margin: rem-calc(20) 0;
+			small {
+				color: darken($blue, 10%);
+				a {
+					color: darken($blue, 10%);
+					border-bottom: dashed 1px $light-gray;
+				}
+			}
+			li {
+				display:inline;
+			}
+			li:last-child {
+				display: block;
+			}
+			.fa-plus {
+				color: darken($blue, 10%);
+				padding-right: 5px;
+			}
+			.sr-only {
+			    border: 0;
+			    clip: rect(0 0 0 0);
+			    height: 1px;
+			    margin: -1px;
+			    overflow: hidden;
+			    padding: 0;
+			    position: absolute;
+			    width: 1px;
+			}
+			  
+			 .amp {
+			 	font-weight: 100;
+			 	@include breakpoint(medium) {
+				 	font-size: 250%;
+				 	margin-top: 13px;
+				 	margin-left: -75px;
+				 	float: left;
+				 	padding-right: 5px;
+			 	}
+			 	  
+			 }
+		}
+		.location {
+			color: lighten($light-gray, 10%);
+			font-size: rem-calc(20);
+			margin-top: rem-calc(150);
+			text-transform: uppercase;
+			font-family: $sans-serif;
+			font-weight: 100;
+			letter-spacing: .1em;
+		}
+		.button {
+			color: $white;
+			border-color: $white;
+			margin-top: 2em;
 		}
 
 	}
@@ -104,45 +133,8 @@
 
 	}
 
-	h4 {
-		color: #fefefe;
-		font-weight: 300;
-		font-size: 1.3125rem;
-	}
-
-	.download { margin-top: rem-calc(20); }
-
 }
 
-// Intro
-.intro {
-	@include grid-row();
-
-	.fp-intro {
-
-		@include breakpoint(small) {
-			@include grid-column(12);
-		}
-
-		@include breakpoint(medium) {
-			@include grid-column(10);
-			@include grid-column-offset(1);
-
-			h2 {
-				font-weight: 300;
-				margin-bottom: 1.5rem;
-			}
-
-			h4 {
-				font-size: 1.125rem;
-				line-height: 1.6;
-				color: #777;
-				margin-bottom: 2rem;
-			}
-
-		}
-	}
-}
 
 // Section divider
 .section-divider {
@@ -153,59 +145,4 @@
 		@extend .dotted;
 		box-sizing: border-box;
 	}
-}
-
-
-// Benefits
-.benefits {
-	@include grid-row();
-	text-align: center;
-
-	header {
-		@include grid-column(12);
-
-		h2 {
-			font-weight: 300;
-		}
-
-		h4 {
-			font-size: 1.125rem;
-			line-height: 1.6;
-			color: #777;
-		}
-	}
-
-	.semantic,
-	.responsive,
-	.customizable,
-	.professional {
-		@include breakpoint(small) {
-			@include grid-column(12);
-		}
-
-		@include breakpoint(medium) {
-			@include grid-column(3);
-		}
-
-		img {
-			padding: 1.25rem;
-    	margin: 1rem auto 0 auto;
-		}
-
-		h3 {
-			color: #0a0a0a;
-			font-weight: 300;
-			font-size: 1.75rem;
-		}
-
-		p { font-size: 0.9375rem; }
-
-	}
-
-	.why-foundation {
-		@include grid-row();
-		@include grid-column(12);
-		margin-top: 4rem;
-	}
-
 }
