@@ -51,4 +51,4 @@ require_once( 'library/responsive-images.php' );
 require_once( 'library/custom-functions.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
-// require_once( 'library/protocol-relative-theme-assets.php' );
+require_once( 'library/protocol-relative-theme-assets.php' );
