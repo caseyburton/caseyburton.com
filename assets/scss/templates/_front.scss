@@ -24,87 +24,96 @@
 	}
 
 	.tagline {
-
+		text-align: center;
 		@include breakpoint(small) {
-			@include grid-column(8);
+			// @include grid-column(8);
 		}
 
 		@include breakpoint(medium) {
-			@include grid-column(12);
+			// @include grid-column(12);
 			padding-top: 6rem;
 		}
 
-		h1.name {
+		.branding {
 			font-size: 	rem-calc(75);	
 		    line-height: 1em;
 			font-weight: 900;
+			text-align: center;
+			margin: 0;
 			@include breakpoint(medium) {
 			    font-size: rem-calc(220);
 			}
 			::selection {
-				text-shadow: 10px 10px 0px $light-red;
+				color: $white;
+				text-shadow: 10px 10px 0px $dark-blue;
 			}
-			.givenname {
+			.happy {
+				font-family: $sans-serif;
 				color: darken($light-yellow, 10%);
-				font-size: 120%;
+				@include breakpoint(medium) {
+					font-size: 107%;
+				}
 			}
-			.familyname {
+			.chap {
 				color: $dark-blue;
 				font-family: $serif;
 				text-transform: uppercase;
 			}
 		}
-		ul.subheader {
-			color: $light-gray;
+		.brand-tag {
 			@include breakpoint(medium) {
-				font-size: rem-calc(43);
-				line-height: 1.75em;
+				margin: -1em 0 10em;
 			}
-			list-style: none;
-			margin: rem-calc(20) 0;
-			small {
-				color: darken($blue, 10%);
-				a {
-					color: darken($blue, 10%);
-					border-bottom: dashed 1px $light-gray;
+			.creative, .co {
+				font-family: $sans-serif;
+				text-transform: uppercase;
+			}
+			.creative {
+				font-size: 150%;
+				@include breakpoint(medium) {
+					font-size: 350%;
+				}
+				font-weight: 100;
+				letter-spacing: .25em;
+			}
+			.co {
+				font-size: 80%;
+				font-weight: 900;
+				background: $red;
+				border-radius: 100%;
+				padding: 5px;
+				position: relative;
+				bottom: 5px;
+				@include breakpoint(medium) {
+					padding: 10px;
+					position: relative;
+					bottom: 15px;				    
 				}
 			}
-			li {
-				display:inline;
+		}
+		h1.subheader {
+			color: #fff;
+			font-weight: 500;
+			font-size: 1.2rem;
+			@include breakpoint(medium) {
+				font-size: 2.875rem;
 			}
-			li:last-child {
-				display: block;
+			.amp {
+				font-family: $serif;
+				font-weight: 300;
+				font-size: 110%;
 			}
-			.fa-plus {
-				color: darken($blue, 10%);
-				padding-right: 5px;
+			strike {
+				// color: $medium-gray;
+				opacity: .25;
 			}
-			.sr-only {
-			    border: 0;
-			    clip: rect(0 0 0 0);
-			    height: 1px;
-			    margin: -1px;
-			    overflow: hidden;
-			    padding: 0;
-			    position: absolute;
-			    width: 1px;
-			}
-			  
-			 .amp {
-			 	font-weight: 100;
-			 	@include breakpoint(medium) {
-				 	font-size: 250%;
-				 	margin-top: 13px;
-				 	margin-left: -75px;
-				 	float: left;
-				 	padding-right: 5px;
-			 	}
-			 	  
-			 }
 		}
 		.location {
 			color: lighten($light-gray, 10%);
-			font-size: rem-calc(20);
+			@include breakpoint(medium) {
+				font-size: rem-calc(20);
+			}
+			  
 			margin-top: rem-calc(150);
 			text-transform: uppercase;
 			font-family: $sans-serif;
@@ -119,19 +128,6 @@
 
 	}
 
-	h1 {
-		color: #fff;
-		font-weight: 500;
-
-		@include breakpoint(small) {
-			font-size: 2.2rem;
-		}
-
-		@include breakpoint(medium) {
-			font-size: 2.875rem;
-		}
-
-	}
 
 }
 
