@@ -212,8 +212,12 @@ select, [type='text'], [type='password'], [type='date'], [type='datetime'], [typ
 	}
 }
 
-.wpcf7-not-valid-tip {
+div.wpcf7-mail-sent-ok {
 	color: $white!important;
+	color: $dark-blue;
+}
+
+.wpcf7-not-valid-tip {
 	background: $red;
 }
 
@@ -225,6 +229,11 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
 
 .wpcf7-submit {
 	margin-right: -50px;
+}
+
+.g-recaptcha {
+	margin: 0 auto;
+    width: 304px;
 }
 
 .ajax-loader {

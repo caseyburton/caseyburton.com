@@ -6792,8 +6792,11 @@ select, [type='text'], [type='password'], [type='date'], [type='datetime'], [typ
   select::selection, [type='text']::selection, [type='password']::selection, [type='date']::selection, [type='datetime']::selection, [type='datetime-local']::selection, [type='month']::selection, [type='week']::selection, [type='email']::selection, [type='number']::selection, [type='search']::selection, [type='tel']::selection, [type='time']::selection, [type='url']::selection, [type='color']::selection, textarea::selection {
     background: #fbf5a9; }
 
-.wpcf7-not-valid-tip {
+div.wpcf7-mail-sent-ok {
   color: #fefefe !important;
+  color: #00a2a6; }
+
+.wpcf7-not-valid-tip {
   background: #f04d27; }
 
 div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
@@ -6803,6 +6806,10 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
 
 .wpcf7-submit {
   margin-right: -50px; }
+
+.g-recaptcha {
+  margin: 0 auto;
+  width: 304px; }
 
 .ajax-loader {
   width: 50px;
