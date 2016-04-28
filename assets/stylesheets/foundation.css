@@ -6801,8 +6801,15 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
   background: #f04d27;
   border: none; }
 
+.wpcf7-submit {
+  margin-right: -50px; }
+
 .ajax-loader {
-  display: none; }
+  width: 50px;
+  position: relative;
+  bottom: 8px;
+  left: 50px;
+  opacity: .50; }
 
 .section-divider {
   max-width: 75rem;

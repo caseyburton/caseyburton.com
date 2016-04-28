@@ -223,8 +223,17 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
 	border: none;
 }
 
+.wpcf7-submit {
+	margin-right: -50px;
+}
+
 .ajax-loader {
-	display: none;
+	// display: none;
+	width: 50px;
+	position: relative;
+	bottom: 8px;
+	left: 50px;
+	opacity: .50;
 }
 
 // Section divider
