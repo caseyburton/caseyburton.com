@@ -214,7 +214,8 @@ select, [type='text'], [type='password'], [type='date'], [type='datetime'], [typ
 
 div.wpcf7-mail-sent-ok {
 	color: $white!important;
-	color: $dark-blue;
+	background: $dark-blue;
+	border: none;
 }
 
 .wpcf7-not-valid-tip {
