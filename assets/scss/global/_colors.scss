@@ -4,7 +4,3 @@ $light-yellow: #fbf5a9;
 $red: #f04d27;
 $light-red: lighten($red, 5%);
 
-::selection {
-	background: transparent;
-	text-shadow: 2px 2px 0px $blue;
-}

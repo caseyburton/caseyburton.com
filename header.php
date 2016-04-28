@@ -42,6 +42,8 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(''); ?>/assets/images/icons/mstile-144x144.png">
 		<meta name="theme-color" content="#f9ef78">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

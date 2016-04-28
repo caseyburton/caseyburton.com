@@ -8,42 +8,39 @@
 
 	#footer {
 		@include grid-row();
-		padding: rem-calc(30) 0;
-
-		blockquote {
-			border: none;
-			text-align: center;
+		padding: rem-calc(30) rem-calc(20);
+		.tease-header {
+			color: darken($red, 10%);
+			font-size: 250%;
 			@include breakpoint(medium) {
-				padding: rem-calc(60) rem-calc(0);
-			}
-			  
-			p {
-				font-family: $sans-serif;
-				color: darken($red, 10%);
+				color: darken($red, 3%);
+				@include grid-column(4);
+				font-size: 375%;
 				text-transform: uppercase;
-				// text-shadow: 1px 1px 0px $light-red;
-				@include breakpoint(medium) {
-					font-size: rem-calc(55);
-					color: darken($red, 3%);
-				}
-				strong {
-					// font-size: 150%;
-				}
 			}
-			cite {
-				color: $white;
-				font-size: rem-calc(20);
-				font-style: normal;
-				font-weight: 100;
-				letter-spacing: .08em;
+			@include breakpoint(large) {
+				@include grid-column(4);
+				font-size: 575%;
 				text-transform: uppercase;
+			}
+			
+		}
+		
+		.tease-body {
+			font-family: $sans-serif;
+			color: darken($red, 10%);
+			text-transform: uppercase;
+			// text-shadow: 1px 1px 0px $light-red;
+			@include breakpoint(medium) {
+				@include grid-column(8);
+				font-size: rem-calc(35);
+				color: darken($red, 3%);
+				padding: 0 rem-calc(60);
+			}
+			strong {
+				font-weight: 900;
 			}
 		}
 
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
 	}
 }
