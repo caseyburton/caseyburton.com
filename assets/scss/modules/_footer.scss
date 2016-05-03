@@ -5,16 +5,33 @@
 	// border-top: 1px solid #ccc;
 	margin-top: rem-calc(60);
 	background: $red;
+		.button {
+			color: $white;
+			font-size: rem-calc(20);
+			font-family: $sans-serif;
+			text-transform: uppercase;
+			font-weight: 900;
+			border-color: $white;
+			&:hover {
+				color: $blue;
+			}
+			&:focus {
+				color: $blue;
+				background: lighten($blue, 10%);
+				border: none;
+			}
+		}
 
 	#footer {
 		@include grid-row();
-		padding: rem-calc(30) rem-calc(20);
+		text-align: center;
 		.tease-header {
 			color: darken($red, 10%);
 			font-size: 250%;
+			font-weight: 900;
+			padding-top: .75em;
+			text-align: center;
 			@include breakpoint(medium) {
-				color: darken($red, 3%);
-				@include grid-column(4);
 				font-size: 375%;
 				text-transform: uppercase;
 			}
@@ -22,6 +39,8 @@
 				@include grid-column(4);
 				font-size: 575%;
 				text-transform: uppercase;
+				padding: rem-calc(30) rem-calc(20);
+				text-align: right;
 			}
 			
 		}
@@ -32,6 +51,10 @@
 			text-transform: uppercase;
 			// text-shadow: 1px 1px 0px $light-red;
 			@include breakpoint(medium) {
+				@include grid-column(12);
+				font-size: rem-calc(35);
+			}
+			@include breakpoint(large) {
 				@include grid-column(8);
 				font-size: rem-calc(35);
 				color: darken($red, 3%);
@@ -42,5 +65,48 @@
 			}
 		}
 
-	}
-}
+		// Mail-chimp form
+
+		#mc_embed_signup form {
+			padding: 1em 1em;
+			text-align: center;
+			label {
+				color: $light-yellow;
+			}
+		}
+		#mc_embed_signup input.email {
+			font-size: 150%;
+			font-family: $serif;
+			width: 100%;
+			text-align: center;
+		}
+		#mc_embed_signup input.button {
+			margin: 0 auto;
+			width: 50%;
+			border-radius: 0;
+			background: none;
+			// border: soild 5px $white!important;
+			margin-top: 1em;
+		}
+		#mc_embed_signup .button {
+			border: solid 5px;
+			color: $white;
+			font-size: rem-calc(20);
+			line-height: 0;
+			font-family: $sans-serif;
+			text-transform: uppercase;
+			font-weight: 900;
+			border-color: $white;
+			padding: rem-calc(20) rem-calc(20)!important;
+			&:hover {
+				color: $blue;
+			}
+			&:focus {
+				color: $blue;
+				background: lighten($blue, 10%);
+				border: none;
+			}
+		}
+
+	} /* footer */
+} /* footer contain */

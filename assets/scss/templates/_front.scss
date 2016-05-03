@@ -86,6 +86,7 @@
 				font-size: 80%;
 				font-weight: 900;
 				background: $red;
+				text-transform: uppercase;
 				border-radius: 100%;
 				padding: 5px;
 				position: relative;
@@ -140,10 +141,6 @@
 				background: lighten($blue, 10%);
 				border: none;
 			}
-		}
-		.cta {
-			margin-top: 2em;
-			font-size: rem-calc(40);
 		}
 
 		// Accordion Form
@@ -244,6 +241,91 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
 	bottom: 8px;
 	left: 50px;
 	opacity: .50;
+}
+
+// List of services
+
+ul.services {
+	list-style: none;
+	text-align: center;
+	li {
+		color: darken($blue, 15%);
+		font-family: $sans-serif;
+		font-size: 300%;
+		font-weight: 900;
+		display: inline-block;
+		&:nth-child(2n+1) {
+			color: darken($blue, 10%);
+		}
+	}
+
+}
+
+// Portfolio Gallery
+
+.entry-content h2 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+p.subheader {
+	color: darken($blue, 10%);
+	text-align: center;
+	font-size: 150%;
+	padding: 0 1em 1em;
+}
+
+.photoswipe_gallery figure {
+	padding: 10px!important;
+}
+
+.photoswipe_gallery figure :hover {
+	box-shadow: 10px 10px 0px $dark-blue;
+}
+.photoswipe_gallery figure:nth-child(2n+1) :hover {
+	box-shadow: 10px 10px 0px $red;
+}
+.portfolio-cta {
+	margin-top: 2em;
+	text-align: center;
+}
+p.portfolio-cta {
+	font-size: 200%;
+	padding: 0 1em;
+	margin-bottom: 5em;
+
+}
+
+.temp-footer {
+	color: darken($blue, 8%);
+	font-size: 200%;
+	font-weight: 900;
+	font-family: $sans-serif;
+	text-align: center;
+	margin: 0;
+	border-top: solid 1px;
+	padding-top: 1em;
+	.chap {
+		// font-size: 90%;
+		font-family: $serif;
+	}
+}
+.creative {
+	color: darken($blue, 10%);
+	font-family: sans-serif;
+	font-size: 90%;
+	text-align:center;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	letter-spacing: .15em;
+}
+
+.entry-content {
+	text-align: center;
+	@include breakpoint(large) {
+	    text-align: left;
+	}
+	  
 }
 
 // Section divider

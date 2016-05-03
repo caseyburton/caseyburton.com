@@ -240,30 +240,6 @@
 			}
 		},
 		{
-			"file": "library/custom-functions.php",
-			"settings":
-			{
-				"buffer_size": 383,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 4959,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "single.php",
-			"settings":
-			{
-				"buffer_size": 1197,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"contents": "<p class=\"contact-intro\">Get in touch to say <strong>hello</strong> or inquire about working with the <strong>HappyChaps</strong>!</p>\n<ul class=\"contact-form row\">\n	<li>\n	  <label>Who are you? <small>*required</small>\n	    [text* your-name]\n	  </label>\n	</li>\n	<li>\n	  <label>How can we help out?\n	    [select subject \"We want to work with you!\" \"I have a question/comment/etc.\" \"You're not my real father!\" \"You should give us money for _____.\" \"Are you familiar with the teachings of _____?\"]\n	  </label>\n	</li>\n	<li>\n	  <label>Project Details / Message / ASCII Art Rendering <small>*required</small>\n	    [textarea* your-message]\n	  </label>\n	</li>\n	<li>\n	  <label>What's your rough budget? <small>(If applicable)</small>\n	    [text your-budget]\n	  </label>\n	</li>\n	<li>\n	  <label>Your email address <small>*required</small>\n	    [email* your-email]\n	  </label>\n	</li>\n	<li>\n	    [recaptcha recaptcha-407]\n	</li>\n	<li>\n	    [submit class:button \"Send 'er off\"]\n	</li>\n</ul>",
 			"file": "html/main-form.html",
 			"file_size": 937,
@@ -286,7 +262,7 @@
 			"file": "assets/scss/templates/_front.scss",
 			"settings":
 			{
-				"buffer_size": 4488,
+				"buffer_size": 4561,
 				"line_ending": "Windows"
 			}
 		},
@@ -364,13 +340,13 @@
 	],
 	"file_history":
 	[
-		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/templates/_front.scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/library/custom-functions.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/header.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/templates/_front.scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/images/icons/browserconfig.xml",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/foundation.scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global/_fonts.scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global/_settings.scss",
-		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/header.php",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/gulpfile.js",
 		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_featured-image.scss",
 		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_brokers.scss",
@@ -689,7 +665,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -718,7 +694,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -746,7 +722,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -762,8 +738,8 @@
 						"selection":
 						[
 							[
-								815,
-								815
+								708,
+								708
 							]
 						],
 						"settings":
@@ -804,97 +780,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "library/custom-functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								345,
-								345
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3487,
-								3487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "single.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "html/main-form.html",
 					"semi_transient": false,
 					"settings":
@@ -906,19 +796,20 @@
 						"selection":
 						[
 							[
-								922,
-								922
+								311,
+								311
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -928,7 +819,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 6,
 					"file": "assets/scss/modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -953,24 +844,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 7,
 					"file": "assets/scss/templates/_front.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4488,
+						"buffer_size": 4561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4022,
-								4022
+								4015,
+								4015
 							]
 						],
 						"settings":
@@ -986,7 +877,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 8,
 					"file": "assets/scss/global/_settings.scss",
 					"semi_transient": false,
 					"settings":
@@ -1012,7 +903,7 @@
 						"translation.y": 575.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
