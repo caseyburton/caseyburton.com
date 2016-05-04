@@ -29,13 +29,14 @@ get_header(); ?>
 
 </header>
 
+
 <?php do_action( 'foundationpress_before_content' ); ?>
  <?php while ( have_posts() ) : the_post(); ?>
    <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
        <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
        <div class="entry-content">
       		<h2>Things we'll do</h2>
-      		<p class="subheader">For awesome clients who are keen to the value of thoughtful work.</p>
+      		<p class="subheader">for awesome clients who are keen to the value of thoughtful work.</p>
        		<ul class="services">
        			<li>Branding</li>
        			<li>Websites</li>
@@ -43,7 +44,7 @@ get_header(); ?>
        			<li>Strategy</li>
        			<li>Signs</li>
        			<li>PR</li>
-       			<li>Apperal</li>
+       			<li>Apparel</li>
        			<li>Posters</li>
        			<li>Menus</li>
        			<li>Advertising</li>
@@ -51,13 +52,17 @@ get_header(); ?>
        			<li>Packaging</li>
        			<li>Propaganda</li>
        			<li>Flyers</li>
+       			<li>Catalogs</li>
+       			<li>Advice</li>
        			<li>&amp;</li>
        			<li>more</li>
        		</ul>
        		<h2>Things we've done</h2>
-       		<p class="subheader">For all sorts of businesses and causes &mdash; and some random pictures, because we did.</p>
+       		<p class="subheader">for all sorts of companies and causes &mdash; and some paradigmatic pictures, too.</p>
            <?php the_content(); ?>
-           <p class="portfolio-cta">How can we help conspire to find smart, snappy &amp; effective solutions to your creative needs <br><span class="question">?</span></p>
+           <p class="portfolio-cta">In short, we're a <strong>collective</strong> of co-conspirators who find smart, snappy &amp; effective <strong>solutions</strong> to your creative needs. How can we be of service<br>
+<span class="question">?</span></p>
+
            <p class="temp-footer">Happy<span class="chap">Chap</span></p>
            <p class="creative">Creative Co.</p>
        </div>
