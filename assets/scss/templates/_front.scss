@@ -126,68 +126,81 @@
 			font-weight: 100;
 			letter-spacing: .1em;
 		}
-		.button {
-			color: $white;
-			font-size: rem-calc(20);
-			font-family: $sans-serif;
-			text-transform: uppercase;
-			font-weight: 900;
-			border-color: $white;
-			&:hover {
-				color: $blue;
-			}
-			&:focus {
-				color: $blue;
-				background: lighten($blue, 10%);
-				border: none;
-			}
-		}
+	} // Tagline
+} // Front Hero
 
-		// Accordion Form
+.button {
+	color: $white;
+	font-size: rem-calc(20);
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	border-color: $white;
+	&:hover {
+		color: $blue;
+	}
+	&:focus {
+		color: darken($red, 5%);
+		background: lighten($blue, 10%);
+		border: none;
+	}
+}
+
+// Accordion Form
 
 
-		.accordion {
-			background: transparent;
-			border: none;
-			.accordion-title {
-				display: inline-block;
-			}
-			.accordion-title::before {
-			    content: none;
-			    position: absolute;
-			    right: 1rem;
-			    top: 50%;
-			    margin-top: -0.5rem;
-			}
-			.accordion-content {
-				background: transparent;
-				border: none;
-				ul {
-					list-style: none;
-					li {
-						margin: 2em 2em;
-						label {
-							font-family: $sans-serif;
-							color: $white;
-							text-transform: uppercase;
-							letter-spacing: .2em;
-						}
-					}
+.accordion {
+	background: transparent;
+	border: none;
+	.accordion-title {
+		display: inline-block;
+	}
+	.accordion-title::before {
+	    content: none;
+	    position: absolute;
+	    right: 1rem;
+	    top: 50%;
+	    margin-top: -0.5rem;
+	}
+	.accordion-content {
+		background: transparent;
+		border: none;
+		ul {
+			list-style: none;
+			li {
+				margin: 2em 2em;
+				label {
+					font-family: $sans-serif;
+					color: $white;
+					text-transform: uppercase;
+					letter-spacing: .2em;
 				}
 			}
-		} // Accordion
-		.contact-intro {
-			font-size: 150%;
-			strong {
-				font-family: $sans-serif;
-			}
 		}
-		.contact-form {
-			margin-top: 4em;
+	}
+} // Accordion
+.contact-intro {
+	font-size: 150%;
+	strong {
+		font-family: $sans-serif;
+	}
+}
+.contact-form {
+	margin-top: 4em;
+}
+
+.main-cta-contain {
+	.main-cta {
+		@include grid-row();
+		padding: 4em 0;
+		text-align: center;
+		.button {
+			font-size: 250%;
+			background: none;
+			margin-bottom: 0;
 		}
-	} // Tagline
-
-
+	}
+	background: $red;
 }
 
 // Form Styling
@@ -201,7 +214,6 @@ select, [type='text'], [type='password'], [type='date'], [type='datetime'], [typ
 		padding: 10px 20px;
 		// text-align: center;
 		height: 4rem;
-	    
 	}
 	  
 	&::selection {
@@ -216,12 +228,12 @@ div.wpcf7-mail-sent-ok {
 }
 
 .wpcf7-not-valid-tip {
-	background: $red;
+	background: $blue;
 }
 
 div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
-	color: $white!important;
-	background: $red;
+	color: $red!important;
+	background: $blue;
 	border: none;
 }
 

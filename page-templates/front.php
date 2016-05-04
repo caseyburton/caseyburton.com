@@ -12,16 +12,20 @@ get_header(); ?>
 			<h1 class="subheader">A PNW design, build, create, make, help <span class="amp">&amp;</span> strategize agency. Digital <span class="amp">&amp;</span> <strike>dead tree</strike> print.</h1>
 			<p class="location">Located in beautiful <strong>Bellingham, WA</strong>.</p>
 
-			<ul class="accordion" data-accordion data-allow-all-closed="true">
-			  <li class="accordion-item" data-accordion-item>
-			    <a href="#" class="accordion-title button cta">Get at us</a>
-			    <div class="accordion-content" data-tab-content>
-					<?php echo do_shortcode('[contact-form-7 id="11" title="main-TEMP"]'); ?>
-			    </div>
-			  </li>
-			</ul>
 		</div>
 	</div>
+<div class="main-cta-contain">
+	<div class="main-cta">
+		<ul class="accordion" data-accordion data-allow-all-closed="true">
+		  <li class="accordion-item" data-accordion-item>
+		    <a href="#" class="accordion-title button cta">Get at us</a>
+		    <div class="accordion-content" data-tab-content>
+				<?php echo do_shortcode('[contact-form-7 id="11" title="main-TEMP"]'); ?>
+		    </div>
+		  </li>
+		</ul>
+	</div>
+</div>
 
 </header>
 
