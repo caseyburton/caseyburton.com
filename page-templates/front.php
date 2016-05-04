@@ -47,12 +47,13 @@ get_header(); ?>
        			<li>Packaging</li>
        			<li>Propaganda</li>
        			<li>Flyers</li>
-       			<li>&amp; more</li>
+       			<li>&amp;</li>
+       			<li>more</li>
        		</ul>
        		<h2>Things we've done</h2>
        		<p class="subheader">For all sorts of businesses and causes &mdash; and some random pictures, because we did.</p>
            <?php the_content(); ?>
-           <p class="portfolio-cta">How can we help conspire to find smart, snappy &amp; effective solutions to your creative needs?</p>
+           <p class="portfolio-cta">How can we help conspire to find smart, snappy &amp; effective solutions to your creative needs <br><span class="question">?</span></p>
            <p class="temp-footer">Happy<span class="chap">Chap</span></p>
            <p class="creative">Creative Co.</p>
        </div>

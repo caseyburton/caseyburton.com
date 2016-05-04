@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background"
+			],
+			[
+				"medium",
+				"medium-gray"
+			],
+			[
+				"sub",
+				"subheader"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"padding",
 				"padding-right"
 			],
 			[
 				"disp",
 				"display	(_kitchen-sink.scss)"
-			],
-			[
-				"medium",
-				"medium"
 			],
 			[
 				"last",
@@ -42,10 +54,6 @@
 			[
 				"esc",
 				"esc_url	(header.php)"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"grid",
@@ -110,10 +118,6 @@
 			[
 				"impo",
 				"important"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"dis",
@@ -200,53 +204,10 @@
 	"buffers":
 	[
 		{
-			"file": "page-templates/front.php",
-			"settings":
-			{
-				"buffer_size": 1030,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 842,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 1594,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 815,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/global/_colors.scss",
-			"settings":
-			{
-				"buffer_size": 108,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<p class=\"contact-intro\">Get in touch to say <strong>hello</strong> or inquire about working with the <strong>HappyChaps</strong>!</p>\n<ul class=\"contact-form row\">\n	<li>\n	  <label>Who are you? <small>*required</small>\n	    [text* your-name]\n	  </label>\n	</li>\n	<li>\n	  <label>How can we help out?\n	    [select subject \"We want to work with you!\" \"I have a question/comment/etc.\" \"You're not my real father!\" \"You should give us money for _____.\" \"Are you familiar with the teachings of _____?\"]\n	  </label>\n	</li>\n	<li>\n	  <label>Project Details / Message / ASCII Art Rendering <small>*required</small>\n	    [textarea* your-message]\n	  </label>\n	</li>\n	<li>\n	  <label>What's your rough budget? <small>(If applicable)</small>\n	    [text your-budget]\n	  </label>\n	</li>\n	<li>\n	  <label>Your email address <small>*required</small>\n	    [email* your-email]\n	  </label>\n	</li>\n	<li>\n	    [recaptcha recaptcha-407]\n	</li>\n	<li>\n	    [submit class:button \"Send 'er off\"]\n	</li>\n</ul>",
-			"file": "html/main-form.html",
-			"file_size": 937,
-			"file_write_time": 131062833849803834,
-			"settings":
-			{
-				"buffer_size": 977,
+				"buffer_size": 1951,
 				"line_ending": "Windows"
 			}
 		},
@@ -254,7 +215,15 @@
 			"file": "assets/scss/modules/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 914,
+				"buffer_size": 2230,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "page-templates/front.php",
+			"settings":
+			{
+				"buffer_size": 2399,
 				"line_ending": "Windows"
 			}
 		},
@@ -262,7 +231,15 @@
 			"file": "assets/scss/templates/_front.scss",
 			"settings":
 			{
-				"buffer_size": 4561,
+				"buffer_size": 5863,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 817,
 				"line_ending": "Windows"
 			}
 		},
@@ -332,6 +309,7 @@
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/javascript",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/javascript/custom",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/javascript/vendor",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/components",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global",
@@ -340,7 +318,13 @@
 	],
 	"file_history":
 	[
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/global/_colors.scss",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/html/main-form.html",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/footer.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/functions.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/style.css",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/library/custom-functions.php",
+		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/javascript/custom/stalactite.js",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/header.php",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/scss/templates/_front.scss",
 		"/D/Ampps/www/caseyburton/wp-content/themes/someguycasey/assets/images/icons/browserconfig.xml",
@@ -461,17 +445,11 @@
 		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/all.css",
 		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/licensing.html",
 		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/js/main.js",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/header.php",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/framework/headers/header-v4.php",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/home.html",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/media.css",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/footer.php",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/faq.html",
-		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/contact.html"
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/header.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -488,6 +466,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cta",
+			"10px",
+			"15px",
+			".photoswipe_gallery",
+			"2px",
 			"2",
 			"1.5",
 			"div",
@@ -610,12 +593,7 @@
 			"email-cta",
 			"div",
 			"tel",
-			"10",
-			"page",
-			"designation",
-			"designations",
-			"\\",
-			"span"
+			"10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -636,110 +614,143 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "page-templates/front.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								942,
-								942
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 1951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								1500,
+								1500
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1594,
-								1594
-							]
-						],
-						"settings":
-						{
+							"dfw_side_bar_vis": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "style.css",
+					"buffer": 1,
+					"file": "assets/scss/modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 815,
+						"buffer_size": 2230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								708,
-								708
+								1781,
+								1781
+							]
+						],
+						"settings":
+						{
+							"dfw_side_bar_vis": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1424.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "page-templates/front.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2104,
+								2104
+							]
+						],
+						"settings":
+						{
+							"dfw_side_bar_vis": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/templates/_front.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4462,
+								4462
+							]
+						],
+						"settings":
+						{
+							"dfw_side_bar_vis": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4194.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
 							]
 						],
 						"settings":
@@ -756,128 +767,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/scss/global/_colors.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								108,
-								108
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "html/main-form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 977,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								311,
-								311
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 6,
-					"file": "assets/scss/modules/_footer.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 914,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "assets/scss/templates/_front.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4561,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4015,
-								4015
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3402.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "assets/scss/global/_settings.scss",
 					"semi_transient": false,
 					"settings":
@@ -895,6 +785,7 @@
 						],
 						"settings":
 						{
+							"dfw_side_bar_vis": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -903,7 +794,7 @@
 						"translation.y": 575.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -926,18 +817,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.583694978302,
 			1.0
 		],
 		"rows":
