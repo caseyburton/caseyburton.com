@@ -61,7 +61,20 @@ get_header(); ?>
        		<p class="subheader">for all sorts of companies and causes &mdash; and some paradigmatic pictures, too.</p>
            <?php the_content(); ?>
            <p class="portfolio-cta">In short, we're a <strong>collective</strong> of co-conspirators who find smart, snappy &amp; effective <strong>solutions</strong> to your creative needs. How can we be of service<br>
-<span class="question">?</span></p>
+			<span class="question">?</span></p>
+
+			<div class="main-cta-contain">
+			<div class="main-cta">
+				<ul class="accordion" data-accordion data-allow-all-closed="true">
+				  <li class="accordion-item" data-accordion-item>
+				    <a href="#" class="accordion-title button cta">Email us here</a>
+				    <div class="accordion-content" data-tab-content>
+						<?php echo do_shortcode('[contact-form-7 id="11" title="main-TEMP"]'); ?>
+				    </div>
+				  </li>
+				</ul>
+			</div>
+		</div> <!-- entry-content -->
 
            <p class="temp-footer">Happy<span class="chap">Chap</span></p>
            <p class="creative">Creative Co.</p>
