@@ -37,73 +37,46 @@
 
 		@include breakpoint(medium) {
 			// @include grid-column(12);
-			padding-top: 6rem;
+			padding: 2rem 0;
 		}
 
 		.branding {
-			font-size: 	rem-calc(75);	
-		    line-height: 1em;
-			font-weight: 900;
-			text-align: center;
-			margin: 0;
-			@include breakpoint(medium) {
-			    font-size: rem-calc(220);
-			}
-			::selection {
-				color: $white;
-				text-shadow: 10px 10px 0px $dark-blue;
-			}
-			.happy {
-				font-family: $sans-serif;
-				color: darken($light-yellow, 10%);
-				@include breakpoint(medium) {
-					font-size: 107%;
+			// font-size: 	rem-calc(75);	
+		 //    line-height: 1em;
+			// font-weight: 900;
+			// text-align: center;
+			// margin: 0;
+			// @include breakpoint(medium) {
+			//     font-size: rem-calc(220);
+			// }
+			#hc-logo {
+				max-width: 800px;
+				padding: 1em 0 4em;
+				.cls-1 {
+					fill: $red;
+					
 				}
-			}
-			.chap {
-				color: $dark-blue;
-				font-family: $serif;
-				text-transform: uppercase;
-			}
-		}
-		.brand-tag {
-			@include breakpoint(medium) {
-				margin: -1em 0 10em;
-			}
-			.creative, .co {
-				font-family: $sans-serif;
-				text-transform: uppercase;
-			}
-			.creative {
-				font-size: 150%;
-				@include breakpoint(medium) {
-					font-size: 350%;
-				}
-				font-weight: 100;
-				letter-spacing: .25em;
-			}
-			.co {
-				font-size: 80%;
-				font-weight: 900;
-				background: $red;
-				text-transform: uppercase;
-				border-radius: 100%;
-				padding: 5px;
-				position: relative;
-				bottom: 5px;
-				@include breakpoint(medium) {
-					padding: 10px;
-					position: relative;
-					bottom: 15px;				    
+				#bg-bowtie {
+					.cls-1 {
+						fill: none;
+					}
+					>&:hover {
+						fill: $red;
+					}
 				}
 			}
 		}
 		h1.subheader {
-			color: #fff;
-			font-weight: 500;
-			font-size: 1.2rem;
+			@include grid-row();
+			color: $dark-blue;
+			font-weight: 100;
+			font-size: 1.75em;
+			padding: 0 .5em;
 			@include breakpoint(medium) {
-				font-size: 2.875rem;
+				font-size: 2.5em;
+			}
+			@include breakpoint(large) {
+				font-size: 3.875em;
 			}
 			.amp {
 				font-family: $serif;
