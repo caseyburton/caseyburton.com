@@ -13,25 +13,27 @@
 		blockquote {
 			border: none;
 			text-align: center;
+			margin-top: 24em;
 			@include breakpoint(medium) {
 				padding: rem-calc(60) rem-calc(0);
 			}
-			  
+
 			p {
 				font-family: $sans-serif;
 				color: darken($red, 10%);
 				text-transform: uppercase;
+				font-size: rem-calc(25);
 				// text-shadow: 1px 1px 0px $light-red;
 				@include breakpoint(medium) {
 					font-size: rem-calc(55);
-					color: darken($red, 3%);
 				}
 				strong {
 					// font-size: 150%;
 				}
 			}
 			cite {
-				color: $white;
+				color: darken($red, 15%);
+				margin-top: 4em;
 				font-size: rem-calc(20);
 				font-style: normal;
 				font-weight: 100;

@@ -5,133 +5,88 @@
 // Page header
 #front-hero {
 	background: $primary-color;
+	padding: 1em;
+	margin-bottom: 16em;
 	@include breakpoint(small) {
-		padding: rem-calc(65%) 0;
-		margin: 0 0 rem-calc(32);
+		/* margin: 0 0 rem-calc(32); */
 		height: auto;
 		position: relative;
 		text-align: left;
 	}
 
-	@include breakpoint(medium) {
-		// height: rem-calc(685);
-		margin: 0 0 rem-calc(72);
-	}
-
-	.marketing {
-		@include grid-row();
-		max-width: 55rem;
-	}
-
-	.tagline {
-
-		@include breakpoint(small) {
-			@include grid-column(8);
+	.content {
+		padding: 2em;
+		@include breakpoint(large) {
+			padding-left: 300px;
 		}
-
+	}
+	#featured-hero {
+		max-width: 250px;
 		@include breakpoint(medium) {
-			@include grid-column(12);
-			padding-top: 6rem;
+			max-width: 100%;
 		}
-
-		h1.name {
-			font-size: 	rem-calc(75);	
-		    line-height: 1em;
-			font-weight: 900;
-			@include breakpoint(medium) {
-			    font-size: rem-calc(220);
-			}
-			::selection {
-				text-shadow: 10px 10px 0px $light-red;
-			}
-			.givenname {
-				color: darken($light-yellow, 10%);
-				font-size: 120%;
-			}
-			.familyname {
-				color: $dark-blue;
-				font-family: $serif;
-				text-transform: uppercase;
-			}
+	}
+	h1.name {
+		font-size: 	rem-calc(65);
+		line-height: 1em;
+		font-weight: 900;
+		margin-top: .15em;
+		margin-left: -.1em;
+		@include breakpoint(medium) {
+			font-size: rem-calc(130);
 		}
-		ul.subheader {
-			color: $light-gray;
+		@include breakpoint(xlarge) {
+			font-size: rem-calc(160);
+		}
+		::selection {
+			text-shadow: 10px 10px 0px $light-red;
+		}
+		.givenname {
+			color: darken($light-yellow, 10%);
+			font-size: 120%;
+		}
+		.familyname {
+			color: $dark-blue;
+			font-family: $serif;
+			text-transform: uppercase;
+		}
+	}
+	p {
+		color: $light-gray;
+		color: darken($blue, 15%);
+		line-height: 1.85em;
+		&.intro {
 			@include breakpoint(medium) {
+				font-size: rem-calc(24);
+			}
+			@include breakpoint(large) {
 				font-size: rem-calc(43);
-				line-height: 1.75em;
 			}
-			list-style: none;
-			margin: rem-calc(20) 0;
-			small {
-				color: darken($blue, 10%);
-				a {
-					color: darken($blue, 10%);
-					border-bottom: dashed 1px $light-gray;
-				}
-			}
-			li {
-				display:inline;
-			}
-			li:last-child {
-				display: block;
-			}
-			.fa-plus {
-				color: darken($blue, 10%);
-				padding-right: 5px;
-			}
-			.sr-only {
-			    border: 0;
-			    clip: rect(0 0 0 0);
-			    height: 1px;
-			    margin: -1px;
-			    overflow: hidden;
-			    padding: 0;
-			    position: absolute;
-			    width: 1px;
-			}
-			  
-			 .amp {
-			 	font-weight: 100;
-			 	@include breakpoint(medium) {
-				 	font-size: 250%;
-				 	margin-top: 13px;
-				 	margin-left: -75px;
-				 	float: left;
-				 	padding-right: 5px;
-			 	}
-			 	  
-			 }
+
 		}
-		.location {
+		a {
+			color: darken($blue, 10%);
+			border-bottom: dashed 1px $light-gray;
+		}
+		&.title-loc {
 			color: lighten($light-gray, 10%);
-			font-size: rem-calc(20);
-			margin-top: rem-calc(150);
 			text-transform: uppercase;
 			font-family: $sans-serif;
 			font-weight: 100;
 			letter-spacing: .1em;
+			margin: rem-calc(50) 0;
+			font-size: rem-calc(18);
+			@include breakpoint(large) {
+				font-size: rem-calc(30);
+			}
 		}
-		.button {
-			color: $white;
-			border-color: $white;
-			margin-top: 2em;
-		}
-
+	}
+	.button {
+		color: $white;
+		border-color: $white;
+		margin-top: 2em;
 	}
 
-	h1 {
-		color: #fff;
-		font-weight: 500;
-
-		@include breakpoint(small) {
-			font-size: 2.2rem;
-		}
-
-		@include breakpoint(medium) {
-			font-size: 2.875rem;
-		}
-
-	}
 
 }
 
